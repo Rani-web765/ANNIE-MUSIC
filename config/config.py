@@ -77,7 +77,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7297381612").split())
+    map(int, getenv("OWNER_ID", "7664117248").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -111,11 +111,11 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Kittyxupdates"
+    "SUPPORT_CHANNEL", "https://t.me/BLOOD_MANSION"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
-)  # Example:- https://t.me/TG_FRIENDSS
+)  # Example:- https://t.me/waifexanime
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_GROUP", "https://t.me/Grandxmasti"
